@@ -8,6 +8,7 @@
     margin: 0;
     padding: 0;
 }
+
 /* nav, header {
     height: 100%;
     width: 100%;
@@ -46,7 +47,7 @@ header {
     max-width: 1400px;
     margin: 0 auto;
     font-family: var(--primary-font);
-    
+
 }
 
 .header-text {
@@ -54,10 +55,12 @@ header {
     font-size: 64px;
     padding-bottom: 20px;
 }
-.header-description{
+
+.header-description {
     line-height: 1.5;
 }
-button{
+
+button {
     background-color: var(--primary-color);
     color: white;
     border: none;
@@ -66,7 +69,8 @@ button{
     margin: 20px;
     border-radius: 5px;
 }
-main{
+
+main {
     display: flex;
     align-items: center;
     width: 100%;
@@ -77,35 +81,108 @@ main{
     padding: 0 50px;
 
 }
-.main-text{
+
+.main-text {
     padding: 20px 0;
+
 }
-.black{
-color: #727272;
-   
+
+.black {
+    color: #727272;
+
 }
-.orange{
+
+.orange {
     color: var(--primary-color);
 }
-.effect{
+
+.effect {
     font-size: 40px;
 }
+
 /* .main-right{
     text-align: left;
 } */
-.images{
+.images {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    /* grid-gap: 10px; */  
+    /* grid-gap: 10px; */
 }
-.image{
+
+.image {
     padding: 10px;
 }
+
 .button-below {
     color: white;
     border: none;
     font-size: 20px;
     border-radius: 5px;
     transform: translate(-20px);
+}
+
+article {
+    width: 100%;
+    max-width: 1400px;
+    margin: 10px auto;
+    font-family: var(--primary-font);
+    padding: 100px 0;
+}
+.article{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    color: #727272;
+}
+
+.article-title {
+    font-size: 45px;
+    color: #000000;
+    font-weight: bold;
+    padding-left: 10px;
+    border-left: 10px solid orange;
+}
+.article-text{
+    padding: 30px 0;
+    font-size: 20px;
+}
+.box{
+    padding: 20px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    margin-bottom: 35px;
+    border-radius: 15px;
    
+}
+
+.box-text{
+    line-height: 1.5;
+   color: #727272;
+   font-size: 20px;
+}
+.box-title{
+    padding-bottom: 10px;
+    color: #000000;
+    font-size: 20px;
+}
+.extra-box{
+    font-size: 50px;
+    font-weight: 700;
+    padding: 30px 40px 0 40px ;
+    width: 350px;
+    height: 200px;
+    color: white;
+    background-color: var(--primary-color);
+    text-align: center;
+    justify-content: center;
+    border-radius: 15px;
+    transform: translate(-70px, -120px);
+
+}
+small{
+    color: white;
+    font-size: 30px;
+    font-weight: 0;
+}
+.mini-box{
+
 }
