@@ -274,7 +274,7 @@ Statistic section
 }
 
 .sponsors,
-footer {
+.pre-footer {
     width: 100%;
     max-width: 1400px;
     margin: 50px auto;
@@ -304,11 +304,58 @@ footer {
     filter: grayscale(100%)
 }
 
-footer {
+/* ---------------
+Footer Section
+--------------- */
+.pre-footer {
     text-align: center;
     background-color: #FFF4E7;
     border-radius: 10px;
     height: 100px;
     padding: 40px;
     font-size: 20px;
+}
+
+footer {
+    background-color: #1f1f1f;
+    height: 100%;
+    font-size: 20px;
+    width: 100%;
+    max-width: 1400px;
+    margin: 10px auto;
+    font-family: var(--primary-font);
+    padding: 30px 0;
+    display: flex;
+    gap: 200px;
+    color: lightgrey;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.left-footer {
+    margin-left: 100px;
+    padding-top: 60px;
+}
+
+.left-footer-header {
+    color: white;
+    font-weight: 700;
+    font-size: 45px;
+    padding-bottom: 10px;
+}
+
+.footer-description {
+    color: white;
+    line-height: 1.6;
+    width: 480px;
+}
+
+.right-footer-text {
+    margin-top: 60px;
+    color: white;
+    font-size: 30px;
+    padding-bottom: 40px;
+}
+.right-footer{
+    padding-right: 100px;
 }
